@@ -48,7 +48,7 @@ export default function App() {
     return (
     <div className="page">
       <div className="header">
-        <p className="title">Tunebridge</p>
+        <p className="title">TuneBridge</p>
         <p className="subtitle">Move a YouTube playlist to Spotify in one click</p>
       </div>
 
