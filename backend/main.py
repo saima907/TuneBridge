@@ -84,10 +84,10 @@ def convert_playlist(payload: ConvertRequest):
         else:
             unmatched_titles.append(video["title"])
 
-        if not matched_uris:
-            raise HTTPException(status_code=400, detail="Couldn't match any songs to Spotify tracks.")
+    if not matched_uris:
+        raise HTTPException(status_code=400, detail="Couldn't match any songs to Spotify tracks.")
 
-        result = spotify_service.create_or_update_playlist(
+    result = spotify_service.create_or_update_playlist(
         payload.spotify_token, payload.playlist_name, matched_uris
     )
 
