@@ -3,8 +3,8 @@
 Converts a YouTube playlist into a Spotify playlist on your own account.
 
 ## How it works
-1. Paste a YouTube playlist link.
-2. Connect your Spotify account (one-time login).
+1. Connect your Spotify account (one-time login).
+2. Paste a YouTube playlist link.
 3. Click Convert — the backend fetches the YouTube video titles, cleans them up,
    searches Spotify for the closest match, and creates a new playlist in your
    Spotify account with the matched tracks.
